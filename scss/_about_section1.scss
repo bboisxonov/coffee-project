@@ -1,0 +1,36 @@
+/* Main */
+
+.section1{
+    margin: 0;
+    background-image: url(../img/about_us_header.png);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.section1_info{
+
+    margin-top: 118px;
+    margin-right: 680px;
+
+}
+.section1_info_title{
+    font-family: 'Fraunces', serif;
+
+    width: 188px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+
+    color: #FEFCF7;
+}
+
+.section1_info_paragraph{
+    font-family: 'Barlow' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFCF7;
+    width: 445px ; 
+}
