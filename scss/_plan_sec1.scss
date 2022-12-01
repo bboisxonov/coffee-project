@@ -1,0 +1,71 @@
+.plan-sec1{
+
+    background: url("../img/plan_sec1.png") no-repeat;
+    width: 1280px;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+
+    &-info{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 40px;
+        &-title{
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FEFCF7;
+            margin: 32px;
+        }
+    
+        &-desc{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            width: 445px;
+            height: 78px;
+            margin: 32px;
+
+    
+        }
+    }
+
+}
+
+.plan-sec2{
+    background-color: #282F38;
+    width: 1280px;
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 100px;
+    &-card{
+
+        &-title{
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #FEFCF7;
+        }
+        &-desc{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;    
+        }
+    }
+    &-circle::after{
+        background-color: #282F38;
+    }
+}
+.section3{
+    padding: 0;
+}

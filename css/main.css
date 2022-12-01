@@ -364,6 +364,7 @@ body {
   font-family: 'Barlow', sans-serif;
   margin: 0;
   padding: 0;
+  background: #FEFCF7;
 }
 
 .button {
@@ -415,7 +416,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 34px 0;
-  background-color: white;
+  background: #FEFCF7;
 }
 
 .header {
@@ -437,6 +438,8 @@ body {
   padding: 5px 7px;
   margin-left: 33px;
   border-bottom: rgba(255, 255, 255, 0) solid 3px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .nav_items > a:hover {
@@ -512,7 +515,7 @@ body {
     font-size: 15px;
   }
   .nav {
-    margin: 0;
+    margin-right: 50px;
   }
   .navbar {
     width: 740px;
@@ -929,6 +932,76 @@ body {
     width: 689px;
     font-size: 96px;
   }
+}
+
+.plan-sec1 {
+  background: url("../img/plan_sec1.png") no-repeat;
+  width: 1280px;
+  height: 450px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.plan-sec1-info {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.plan-sec1-info-title {
+  font-family: 'Fraunces', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin: 32px;
+}
+
+.plan-sec1-info-desc {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 445px;
+  height: 78px;
+  margin: 32px;
+}
+
+.plan-sec2 {
+  background-color: #282F38;
+  width: 1280px;
+  padding: 80px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.plan-sec2-card-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.plan-sec2-card-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.plan-sec2-circle::after {
+  background-color: #282F38;
+}
+
+.section3 {
+  padding: 0;
 }
 
 /* Footer */
